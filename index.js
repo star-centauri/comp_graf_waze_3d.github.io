@@ -11,7 +11,6 @@ var player = { height: 1.8, speed: 0.2 };
 const raycaster = new THREE.Raycaster();
 const pointer = new THREE.Vector2();
 
-
 function build () {
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(90, 1280/720, 0.1, 1000);
